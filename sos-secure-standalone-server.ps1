@@ -27,7 +27,7 @@ param(
     [Parameter(Mandatory = $false)]
     [bool]$defender = $true,
     [Parameter(Mandatory = $false)]
-    [bool]$firewall = $true,
+    [bool]$firewall = $false,
     [Parameter(Mandatory = $false)]
     [bool]$mitigations = $true,
     [Parameter(Mandatory = $false)]
